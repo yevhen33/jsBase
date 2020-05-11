@@ -50,3 +50,26 @@ console.log(div);
 
 const test = '12.23px';
 console.log(parseFloat(test));
+
+const arr = [11, 21, 3, 4, 5, 26];
+
+// arr.sort(comNum);
+// console.log(arr);
+
+// function comNum (a, b) {
+//     return a - b;
+// }
+
+// console.log(arr.join("; "));
+
+arr.forEach(function(i, num, arr) {
+    console.log(`${num} равен ${i} масива ${arr}`);
+});
+
+// for ( let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// for (let val of arr) {
+//     console.log(val);
+// }
