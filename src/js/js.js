@@ -47,3 +47,6 @@ console.log(div);
 // console.log(circle[1]);
 // console.log(heart);
 // console.log(one);
+
+const test = '12.23px';
+console.log(parseFloat(test));
